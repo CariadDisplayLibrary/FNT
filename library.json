@@ -1,14 +1,14 @@
 {
     "name": "FNT",
-    "keywords": "display, displaycore, tft, lcd, glcd, oled, graphics, font",
-    "description": "FNT Resource Support for DisplayCore",
-    "homepage": "http://displaycore.org/wiki/index.php?title=FNT",
+    "keywords": "display, cariad, tft, lcd, glcd, oled, graphics, font",
+    "description": "FNT Resource Support for Cariad",
+    "homepage": "http://cariad.org/wiki/index.php?title=FNT",
     "repository":
     {
       "type": "git",
-      "url": "https://github.com/DisplayCore/FNT.git"
+      "url": "https://github.com/Cariad/FNT.git"
     },
-    "dependencies": [ { "name": "DisplayCore", "version": "2.1.0" } ],
+    "dependencies": [ { "name": "Cariad", "version": "2.1.0" } ],
     "export": {
         "exclude": "debian"
     },

@@ -31,7 +31,7 @@ uint8_t FNT::getEndGlyph() {
     return _header->dfLastChar;
 }
 
-int FNT::drawChar(DisplayCore *dev, int x, int y, uint8_t c, color_t fg, color_t bg) {
+int FNT::drawChar(Cariad *dev, int x, int y, uint8_t c, color_t fg, color_t bg) {
 
     if (c < _header->dfFirstChar || c > _header->dfLastChar) return 0;
 

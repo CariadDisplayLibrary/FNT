@@ -1,16 +1,17 @@
-Source: libdisplaycore-fonts-fnt
+Source: libcariad-fonts-fnt
 Section: libraries
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-fonts-fnt
+Package: libcariad-fonts-fnt
+Replaces: libdisplaycore-fonts-fnt
 Section: libraries
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Fonts
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: FNT.h
 Description: FNT library
  This is a Font class which takes the data from a Windows FNT bitmap font

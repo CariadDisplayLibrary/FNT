@@ -1,7 +1,7 @@
 #ifndef _FNT_H
 #define _FNT_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
 struct fntHeader {
   uint16_t  dfVersion; 
@@ -50,7 +50,7 @@ class FNT : public Font {
         uint8_t getCharacterWidth(uint8_t glyph);
         uint8_t getStartGlyph();
         uint8_t getEndGlyph();
-        int drawChar(DisplayCore *dev, int x, int y, uint8_t c, color_t fg, color_t bg);
+        int drawChar(Cariad *dev, int x, int y, uint8_t c, color_t fg, color_t bg);
         const char *getName() { return _name; }
 
 };   
