@@ -2,20 +2,25 @@
     "name": "FNT",
     "keywords": "display, cariad, tft, lcd, glcd, oled, graphics, font",
     "description": "FNT Resource Support for Cariad",
-    "homepage": "http://cariad.org/wiki/index.php?title=FNT",
-    "repository":
-    {
-      "type": "git",
-      "url": "https://github.com/Cariad/FNT.git"
+    "homepage": "https:\/\/github.com\/CariadDisplayLibrary\/FNT",
+    "repository": {
+        "type": "git",
+        "url": "https:\/\/github.com\/CariadDisplayLibrary\/FNT"
     },
-    "dependencies": [ { "name": "Cariad", "version": "2.1.0" } ],
+    "dependencies": [
+        {
+            "name": "Cariad",
+            "version": "2.1.0"
+        }
+    ],
     "export": {
         "exclude": "debian"
     },
     "authors": {
-        "name": "Majenko Technologies", "url": "http://majenko.co.uk"
+        "name": "Majenko Technologies",
+        "url": "http:\/\/majenko.co.uk"
     },
-    "version": "1.0.5",
+    "version": "2.0.1",
     "frameworks": "arduino",
     "platforms": "microchippic32"
 }
